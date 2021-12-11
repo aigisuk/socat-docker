@@ -12,3 +12,4 @@ jobs:
         name: aigis/socat
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
+        tags: "latest,1.7.4.2-r0"
